@@ -22,12 +22,10 @@ class Ar_bin:
 
 def main():
     arbin = Ar_bin()
-
     escolha = input('0 - Int to bin\n1 - Bin to Int\n> ')
     if escolha == '0':
         inteiro = int(input('\nInt > '))
         print('\n'+str(arbin.Int_to_bin(inteiro)))
-    
     else:
         bin = input('\nBin > ')
         print('\n'+str(arbin.Bin_to_int(bin)))
